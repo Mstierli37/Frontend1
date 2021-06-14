@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+h1, h2{
+    color: rgba(0, 86, 119, 1);
+    background: rgba(196, 196, 196, 1);
+}
+
+
+header {
+    text-align: center;
+    background: rgba(229, 229, 229, 1);
+}
+
+.titulo {
+    
+    top: 213px;
+    
+    font-size: 35px;
+}
+
+main {
+    margin-left: 20%;
+    margin-top: 7%;
+    margin-right: 20%;
+    margin-bottom: 7%;
+}
+
+.datos {
+    font-style: normal;
+    font-weight: normal;
+}
+
+li {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    background: rgba(0, 86, 119, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: normal;
+    height: 37px;
+    font-size: 20px;
+}
