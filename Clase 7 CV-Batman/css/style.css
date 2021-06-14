@@ -20,8 +20,13 @@ header {
 .titulo {
     
     top: 213px;
-    
+    letter-spacing: 10px;
     font-size: 35px;
+}
+
+.subtitulos {
+    letter-spacing: 5px;
+    padding-left: 10px;
 }
 
 main {
