@@ -1,14 +1,12 @@
 h1 {
-    text-align: center;
+    text-align: center
 }
 
 .botones {
-    text-align: center;
-    
+    text-align: center    
 }
 
 a {
     color: rgba(0, 0, 0, 1);
-    text-decoration: none;
-
+    text-decoration: none
 }
