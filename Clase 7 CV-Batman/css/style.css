@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: bold;
+    margin: 0px;
 }
 
 
@@ -17,8 +18,9 @@ header {
     background: rgba(229, 229, 229, 1);
 }
 
+
+
 .titulo {
-    
     top: 213px;
     letter-spacing: 10px;
     font-size: 35px;
@@ -30,10 +32,9 @@ header {
 }
 
 main {
-    margin-left: 20%;
-    margin-top: 7%;
-    margin-right: 20%;
-    margin-bottom: 7%;
+    line-height: 25px;
+    margin: 50px auto;
+    max-width: 800px;
 }
 
 .datos {
@@ -51,5 +52,17 @@ footer {
     color: rgba(255, 255, 255, 1);
     font-weight: normal;
     height: 37px;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.segundaLinea {
+    padding-left: 80px;
+}
+
+.contacto > a {
+    padding-left: 20px;
+}
+
+.contacto {
+    padding-top: 7px;
 }
