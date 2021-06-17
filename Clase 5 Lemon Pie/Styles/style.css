@@ -1,0 +1,20 @@
+body {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.banner {
+    background-image: url('../Img/lemon-pie\ 2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 343px;
+    color: #FFFFFF;
+}
+
+section.banner ~ section {
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+/*Google font inter*/
