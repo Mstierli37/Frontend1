@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(34, 34, 34, 1);
+
+}
+
+.menu1 {
+    width: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; bottom: 0px;
+}
+
+.menu2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.card1 {
+    margin: 5px auto;
+    width: 490px;
+    height: 350px;
+    background-image: url(../images/delivery.jpg);
+    background-size: cover;
+}
+
+.card2 {
+    margin: 5px auto;
+    width: 490px;
+    height: 350px;
+    background-image: url(../images/PizzaFalling.jpg);
+    background-size: 92px 129px;
+    background-repeat: no-repeat;
+    background-position-x: 330px;
+    background-position-y: 132px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+}
+
+h3 {
+    position: relative; top: 70px;
+}
+
+ol {
+    position: relative; top: 100px; left: 10px;
+    font-weight: bold;
+}
+
+.rojo {
+    color: red;
+}
+
+.titulo2 {
+    position: relative; top: 10px;
+    text-align: center;
+}
+
+.titulo1 {
+    position: relative; top: 10px; left: 15px !important;
+}
