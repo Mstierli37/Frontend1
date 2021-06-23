@@ -43,8 +43,9 @@ h1 {
 .botones {
     margin: 0px;
     text-align: center;
-    position: relative; top: 5rem;
+    position: relative;
     letter-spacing: 5rem;
+    height: 100%;
 }
 
 a {
@@ -62,6 +63,7 @@ button {
     border: 3px solid;
     background-color: rgba(55, 78, 47, 0.8);
     border: 5px rgb(182, 182, 182) solid;   
+    margin: 10px;
 }
 
 footer {
@@ -70,6 +72,11 @@ footer {
     width: 100%;
     height: 30px;
     background-color:rgba(55, 78, 47, 0.822);
+}
+
+main {
+    margin-top: 2vh;
+    position: relative; top: -5vh;
 }
 
 .buttonText {
