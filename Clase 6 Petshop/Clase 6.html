@@ -9,17 +9,17 @@
   </head>
   <body>
     <header>
-      <div class="Top">
+      <div class="top">
         <span>Grandes ofertas en comederos</span>
         <ul type="none">
           <li>Español</li>
           <li>$ARG</li>
         </ul>
       </div>
-      <div class="Header" style="background-color: coral;">
+      <div class="header">
         <a href="#"><img src="./Images/Logo.png" alt="Cat&Dog" /></a>
         <nav>
-          <ul type="none">
+          <ul class="menu" type="none">
             <li>
               <a href="#"
                 ><img src="./Images/Huella.png" alt="Huella" />Categorías</a>
@@ -41,17 +41,21 @@
     </header>
     <main>
       <div class="banner">
-        <h1>¡Es un placer aquí!</h1>
-        <h2>¡Comederos en descuento!</h2>
-        <button class="comederos"><a href="#">COMEDEROS</a></button>
+        <div class="bienvenida">
+          <h1>¡Es un placer tenerte aquí!</h1>
+          <h2>¡Comederos en descuento!</h2>
+          <button class="comederos"><a href="#">COMEDEROS</a></button>
+        </div>
       </div>
       <div class="ProductosDestacados">
         <section class="Categorias">
           <img src="./Images/Huella 2.png" alt="Huella 2" />
           <h2>Productos Destacados</h2>
-          <ul type="none">
+          <ul class="menu2" type="none">
             <li>Comederos</li>
+            <li>-</li>
             <li>Accesorios</li>
+            <li>-</li>
             <li>Comida</li>
           </ul>
         </section>
@@ -75,7 +79,7 @@
       </div>
       <div class="Formulario">
         <h2>Contáctanos</h2>
-        <form>
+        <form class="contactanos">
           <input type="text" placeholder="Nombre y Apellido" />
           <input type="email" placeholder="Ingresá tu correo electrónico" />
           <input type="tel" placeholder="Teléfono" />
@@ -83,14 +87,12 @@
           <input type="submit" value="Enviar" />
         </form>
       </div>
-      <div class="Suscripcion">
-        <img
-          src="./Images/enviar-correo 1.png"
-          alt="Correo"
-          style="background-color: coral"
-        />
-        <span>Suscríbete para más novedades</span>
-        <form>
+      <div class="suscripcion">
+        <section>
+          <img src="./Images/enviar-correo 1.png" alt="Correo"/>
+          <span>Suscríbete para más novedades</span>
+        </section>
+          <form>
           <input type="text" placeholder="Ingresá tu correo electrónico" />
           <input type="submit" value="Suscribirme" />
         </form>
@@ -98,26 +100,32 @@
     </main>
     <footer>
       <div class="datos">
-        <ul type="none">
+        <ul class="menu3" type="none">
           <li>
             <a href="#">
-              <img src="./Images/Footer/Icono GPS.png" alt="GPS" />
+              <img src="./Images/Footer/Icono GPS.png" alt="GPS"/>
+            <section>
               <p>Localidad</p>
               <p>Calle - Provincia</p>
+            </section>  
             </a>
           </li>
           <li>
             <a href="#">
               <img src="./Images/Footer/Icono TEL.png" alt="TEL" />
-              <p>Teléfono</p>
-              <p>Número de teléfono</p>
-            </a>
+              <section>
+                <p>Teléfono</p>
+                <p>Número de teléfono</p>
+              </section>
+              </a>
           </li>
           <li>
             <a href="#">
               <img src="./Images/Footer/Icono MAIL.png" alt="MAIL" />
+            <section>
               <p>Correo Electrónico</p>
               <p>Dirección de correo</p>
+            </section>
             </a>
           </li>
         </ul>
