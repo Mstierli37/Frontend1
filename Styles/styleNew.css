@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', normal;
+}
+
+body {
+    height: 100vh;
+    background: url(../Images/patrones.jpg);
+}
+
+header {
+    width: 100%;
+    height: 40vh;
+    background-color:rgba(55, 78, 47, 0.822);
+}
+
+h1 {
+    letter-spacing: 2vw;
+    font-weight: bold;
+    font-size: 3vw;
+    color: rgb(41, 41, 41);
+}
+
+.nombre {
+    font-weight: bold;
+    letter-spacing: .2vw;
+    font-size: 1.5vw;
+    color: rgb(41, 41, 41);
+}
+
+hr {
+    height: 2vh;
+    background-color: rgb(182, 182, 182);
+    border: 0px;
+    position: relative; bottom: 0px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.perfil {
+    width: 50%;
+}
+
+.portada {
+    width: 65%;
+    position: relative; right: 1vw;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 38vh;
+}
+
+.derecha, .izquierda {
+    width: 25%;
+    height: 38vh;
+}
+
+.centro, .derecha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw;
+}
+
+.izquierda {
+    display: flex;
+    align-items: center;
+    padding: 2vw;
+}
+
+.centro {
+    width: 50%;
+    height: 38vh;
+}
+
+main {
+    height: 55vh;
+}
+
+
+footer {
+    height: 5vh;
+    background-color:rgba(55, 78, 47, 0.822);
+}
+
+button:hover {
+    background-color: rgba(121, 121, 121, 0.548);
+    border: 5px rgba(55, 78, 47, 0.8) solid;  
+}
+
+button:hover > .buttonText {
+    color: rgba(0, 0, 0, 1);
+}
+
+.buttonText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    color: rgb(182, 182, 182);
+    font-family: 'Bebas Neue', normal;
+    font-weight: normal;
+    letter-spacing: 10px;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 5rem;
+    height: 100%;
+    padding: 5vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    min-width: 300px;
+    width: 15vw;
+    height: 15vh;
+    line-height: 600%;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 3vh;
+    border: 3px solid;
+    background-color: rgba(55, 78, 47, 0.8);
+    border: 5px rgb(182, 182, 182) solid;   
+}
