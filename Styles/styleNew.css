@@ -122,6 +122,7 @@ button:hover > .buttonText {
     letter-spacing: 5rem;
     height: 100%;
     padding: 5vh;
+    overflow: auto;
 }
 
 a {
