@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+.descuento {
+    background-color: rgba(28, 209, 176, 1);
+    padding: 10px;
+    height: 3vh;
+}
+
+.header {
+    background-color: rgba(0, 102, 159, 1);
+    height: 7vh;
+    padding: 20px;
+    position: sticky; top: 0px;
+    z-index: 50;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    display: flex;
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    position: fixed; bottom: 0px;
+    width: 100vw;
+    z-index: 50;
+}
+
+main{
+    padding: 10px;
+    display: flex;
+    height: 75.4vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    gap: 3vh;
+}
+
+.formulario{
+    width: 30vw;
+    height: 60vh;
+}
+
+input, select {
+    width: 30vw;
+    height: 5vh;
+}
+
+h2{
+    font-size: 4rem;
+    margin-bottom: 4vh;
+}
+
+.boton-reset, .boton-submit {
+    width: 14vw;
+    height: 5vh;
+    border: 0px;
+}
+
+.boton-reset {
+    background: rgba(136, 136, 136, 1);
+    color: white;
+    border-radius: 2vh;
+}
+
+.boton-submit{
+    background: rgba(28, 209, 176, 1);
+    border-radius: 2vh;
+    color: black;
+    font-weight: bold;
+}
+
+.botones {
+    display: flex;
+    gap: 2vw;
+}
+
+.ingresar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    gap: 1vw;
+}
+
+a {
+    text-decoration: none;
+}
