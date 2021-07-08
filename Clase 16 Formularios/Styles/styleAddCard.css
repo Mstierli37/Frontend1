@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+.descuento {
+    background-color: rgba(28, 209, 176, 1);
+    padding: 10px;
+    height: 3vh;
+}
+
+.header {
+    background-color: rgba(0, 102, 159, 1);
+    height: 7vh;
+    padding: 20px;
+    position: sticky; top: 0px;
+    z-index: 50;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    display: flex;
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    position: fixed; bottom: 0px;
+    width: 100vw;
+    z-index: 50;
+}
+
+.git {
+    width: 50px;
+    position: absolute;
+    right: 1vw;
+}
+
+footer > span {
+    margin-left: 10px;
+}
+
+.nav {
+    background-color: rgba(0, 29, 45, 1);
+    padding-right: 5vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5vh;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 43vh;
+    gap: 8px;
+}
+
+.add{
+    width: 60vw;
+    height: 60vh;
+    text-align: center;
+    background-color: rgba(0, 102, 159, 1);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+
+}
+
+.add > form > input, select{
+    width: 25vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73vh;
+}
+
+.poderes, .personajes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25vw;
+}
+
+hr {
+    width: 25vw;
+}
+
+textarea {
+    width: 25vw;
+    height: 22vh;
+}

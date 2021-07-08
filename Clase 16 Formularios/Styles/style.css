@@ -44,14 +44,15 @@ footer > span {
     margin-left: 10px;
 }
 
-main{
+.flex-container{
     padding: 10px;
     display: flex;
-    height: 75.4vh;
+    height: 70vh;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 3vh;
+    overflow: auto;
 }
 
 .card {
@@ -74,13 +75,13 @@ main{
     z-index: 10;}
 
 .background-bat {
-    background-image: url("../images/back-batman.png");
+    background-image: url("../Images/back-batman.png");
     background-size: contain;
     height: 193px;
 }
 
 .background-har {
-    background-image: url("../images/back-harley.png");
+    background-image: url("../Images/back-harley.png");
     background-size: contain;
     height: 193px;
 }
@@ -123,4 +124,25 @@ nav ul {
 ul a{
     text-decoration: none;
     color: white;
+}
+
+.btn-add{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 102, 159, 1);
+    color: white;
+    font-size: 2rem;
+    position: absolute; right: 2vw; bottom: 6vh;
+}
+
+.btn-add > span{
+    position: relative;
+    top: 7px;
+    left: 17px;
+    z-index: 100;
+}
+
+.btn-add:hover{
+    background-color: #001D2D;
 }
