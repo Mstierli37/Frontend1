@@ -154,6 +154,7 @@ h1 {
     justify-content: space-around;
     margin: 20px;
     flex-wrap: wrap;
+    gap: 20px;
 }
 article {
     text-align: center;
@@ -198,6 +199,70 @@ ul > li > a{
     margin-right: 70px;
 }
 
+.contactanos > [type="text"], .contactanos > [type="tel"], .contactanos > [type="email"]{
+    width: 350px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    padding: 20px;
+    color: white;
+
+}
+
+::placeholder{
+    color: #FFFFFF;
+    font-size: 9px;
+}
+
+.buttons {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buttons > [type="reset"], .buttons > [type="submit"] {
+    width: 110px;
+    height: 32px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.buttons > [type="reset"]{
+    background-color: #8A8787;
+}
+
+.buttons > [type="submit"]{
+    background-color: #F0A83E;
+}
+
+.email > [type="text"]::placeholder{
+    color: #A0A0A0;
+    padding: 20px;
+}
+
+.email > [type="text"] {
+    width: 270px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+}
+
+.email > [type="submit"] { 
+    background-color: #3C2313;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    width: 70px;
+    font-size: .7rem;
+
+}
+
 @media screen and (max-width: 768px){
     .top{
         display: none;
@@ -227,6 +292,6 @@ ul > li > a{
         font-weight: 400;
         color: white;
         font-size: 2rem;
-        content: "\f007";
+        content: "\f0c9";
     }
 }
