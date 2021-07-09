@@ -66,13 +66,13 @@ form{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 43vh;
+    height: 52vh;
     gap: 8px;
 }
 
 .add{
     width: 60vw;
-    height: 60vh;
+    height: 65vh;
     text-align: center;
     background-color: rgba(0, 102, 159, 1);
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
@@ -80,8 +80,11 @@ form{
 
 }
 
-.add > form > input, select{
+.add > form > div > input[type="text"], .add > form > div > input[type="date"], select {
     width: 25vw;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
 }
 
 main{
@@ -91,7 +94,7 @@ main{
     height: 73vh;
 }
 
-.poderes, .personajes {
+.poderes, .personaje {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -105,4 +108,45 @@ hr {
 textarea {
     width: 25vw;
     height: 22vh;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 52vh;
+    margin-top: 10px;
+}
+
+input:file-upload-button {
+    width: 25vw;
+    border: none;
+    border-radius: 10px;
+}
+
+label {
+    text-align: start;
+    color: white;
+
+}
+
+h2, span, h3 {
+    color: white;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    position: absolute; bottom: -30px;
+    left: -150px;
+    background-color: #1CD1B0;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.col-2 {
+    position: relative;
 }

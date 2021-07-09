@@ -29,49 +29,55 @@
             <h2>Añadi tu super!</h2>
             <span>Agregá tu personaje favorito completando las opciones</span>
             <form action="index.html">
-                <label for="name">*Nombre</label>
-                <input type="text" id="name" name="name">
-                <label for="date">Fecha</label>
-                <input type="date" id="date" name="date">
-                <textarea name="descripcion" cols="30" rows="10" name="descripcion"></textarea>
-                <label for="especie">*Especie</label>
-                <select name="especie" id="especie">
-                    <option value="1">Unknow</option>
-                </select>
-                <label for="foto">Agregar Foto</label>
-                <input type="file" name="foto" id="foto">
-                <div class="poderes">
-                    <h3>Poderes</h3>
-                    <section>
-                        <input type="checkbox" name="poderes" id="volar">
-                        <label for="volar">Volar</label>
-                    </section>
-                    <section>
-                        <input type="checkbox" name="smart" id="smart">
-                        <label for="smart">SuperInteligencia</label>
-                    </section>
-                    <section>
-                        <input type="checkbox" name="laser" id="laser">
-                        <label for="laser">Vista de rayo Laser</label>
-                    </section>
-                    <section>
-                        <input type="checkbox" name="money" id="money">
-                        <label for="money">Billetera gorda</label>
-                    </section>
+                <div>
+                    <label for="name">*Nombre</label>
+                    <input type="text" id="name" name="name">
+                    <label for="date">Fecha</label>
+                    <input type="date" id="date" name="date">
+                    <textarea name="descripcion" cols="30" rows="10" name="descripcion"></textarea>
                 </div>
-                <hr>
-                <div class="personaje">
-                    <h3>Tipo de personaje</h3>
-                    <section>
-                        <input type="radio" name="good" id="good">
-                        <label for="good">Héroe / Heroína</label>
-                    </section>
-                    <section>
-                        <input type="radio" name="bad" id="bad">
-                        <label for="bad">Villano / Villana</label>
-                    </section>
+                <div class="col-2">
+                    <label for="especie">*Especie</label>
+                    <select name="especie" id="especie">
+                        <option value="1">Unknow</option>
+                    </select>
+                    <label for="foto">Agregar Foto</label>
+                    <input type="file" name="foto" id="foto">
+                    <div class="poderes">
+                        <h3>Poderes</h3>
+                        <section>
+                            <input type="checkbox" name="poderes" id="volar">
+                            <label for="volar">Volar</label>
+                        </section>
+                        <section>
+                            <input type="checkbox" name="smart" id="smart">
+                            <label for="smart">SuperInteligencia</label>
+                        </section>
+                        <section>
+                            <input type="checkbox" name="laser" id="laser">
+                            <label for="laser">Vista de rayo Laser</label>
+                        </section>
+                        <section>
+                            <input type="checkbox" name="money" id="money">
+                            <label for="money">Billetera gorda</label>
+                        </section>
+                    </div>
+                    <hr>
+                    <div class="personaje">
+                        <h3>Tipo de personaje</h3>
+                        <section>
+                            <input type="radio" name="tipo" id="good">
+                            <label for="good">Héroe / Heroína</label>
+                        </section>
+                        <section>
+                            <input type="radio" name="tipo" id="bad">
+                            <label for="bad">Villano / Villana</label>
+                        </section>
+                    </div>
+                    <input type="submit" name="Añadir" value="Añadir">
                 </div>
             </form>
+
 
         </div>
 
