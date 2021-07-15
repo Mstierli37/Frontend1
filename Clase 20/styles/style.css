@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+/*HEADER*/
+header{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+/* Logo; */
+/* header .logo{} */
+/* header .logo img{} */
+/* Menu; */
+/* header .menu{} */
+header .menu .fa-bars{
+    display: none;
+}
+header .menu nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+header .menu nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+/* header .menu nav ul li{} */
+header .menu nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* Carrito; */
+header .menu nav a{
+    text-decoration: none;
+}
+header .menu nav a i{
+    color: rgba(208, 20, 24, 1);
+}
+
+/* MAIN; */
+main{
+    width: 100%;
+    height: 65vh;
+    overflow: auto;
+    background-color: whitesmoke;
+}
+/* Banner; */
+main .banner{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .banner span{
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+}
+main .banner span::before{
+    content: '25% ';
+    color: rgba(208, 20, 24, 1);
+    font-weight: bold;
+}
+main .banner button{
+    width: 150px;
+    height: 40px;
+    background-color: rgba(208, 20, 24, 1);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+/* Destacados; */
+main .destacados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+main .destacados h2{
+    margin-top: 30px;
+}
+/* Producto; */
+main .destacados .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+main .destacados .cards article{
+    background-color: white;
+    width: 200px;
+    height: 280px;
+    border-radius: 5px;
+}
+main .destacados .cards article .img{
+    width: 200px;
+    height: 163px;
+    text-align: center;
+    margin-top: 20px;
+}
+main .destacados .cards article img{
+    width: 129px;
+    height: 163px;
+}
+main .destacados .cards article .texto{
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 15px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(180, 171, 171);
+}
+main .destacados .cards article .texto .precio{
+    font-size: 20px;
+}
+/* main .destacados .cards article .texto .cuotas{} */
+main .destacados .cards article .texto .envio{
+    color: rgba(97, 157, 0, 1);
+}
+/* Estrellas; */
+main .estrellas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .estrellas h2{
+    margin: 10px 0;
+}
+/* Articulos; */
+main .estrellas .cards2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+main .estrellas .cards2 article{
+    width: 361px;
+    height: 135px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+main .estrellas .cards2 article:nth-child(1){
+    background-image: url('../images/silla.png');
+}
+main .estrellas .cards2 article:nth-child(2){
+    background-image: url('../images/cpu.png');
+}
+main .estrellas .cards2 article span{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+/* FOOTER; */
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+/* Logo; */
+/* footer .logo{} */
+/* footer .logo img{} */
+/* Redes; */
+/* footer aside{} */
+footer aside h3{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+footer aside .icons{
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+}
+/* footer aside .icons a{} */
+footer aside .icons a i{
+    font-size: 1.5rem;
+}
+footer aside .icons a .fa-twitter{
+    color: rgba(20, 174, 208, 1);
+}
+footer aside .icons a .fa-facebook-f{
+    color: rgba(20, 118, 208, 1);
+}
+footer aside .icons a .fa-instagram{
+    color: rgba(206, 12, 255, 1);
+}
+/* Derechos; */
+.derechos{
+    width: 100%;
+    height: 3vh;
+    text-align: center;
+    background: rgba(196, 196, 196, 1);
+    position: fixed; bottom: 0%;
+    margin: 1px auto;
+
+}
+.derechos span{
+    font-size: .8rem;
+}
+
+@media screen and (max-width: 600px){
+    nav ul li, nav a{
+        display: none;
+    }
+    header .menu .fa-bars{
+        display: inline-block;
+        color: white;
+        font-size: 2rem;
+    }
+    footer{
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        gap: 10px;
+    }
+}
